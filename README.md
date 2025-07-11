@@ -87,3 +87,83 @@
 </body>
 </html>
 
+
+
+CSS CODE 
+
+<link rel="stylesheet" href="style.css">
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .search-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .event-card {
+    border: 1px solid #ee9999;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(244, 175, 175);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  .event-card img {
+    width: 100px;
+    height: 120px;
+    border: 2px dashed #f37e7e;
+    border-radius: 12px;
+    filter: grayscale(40%);
+    margin: 10px 0;
+  }
+  .event-card.sold-out img {
+    filter: grayscale(90%) brightness(0.7);
+
+  }
+  
+  .event-card p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-now {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sold-out {
+    background-color: #ea4b4b;
+    color: #0e0e0e;
+    cursor: not-allowed;
+  }
+
+  
+
